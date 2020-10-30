@@ -1,0 +1,31 @@
+# Official
+
+>> This document highlights how you can get access to our official repos and maintain ProjectStreak officially for your device.
+
+### So how do you do it?
+
+Follow this format and send a message with it to [**@san9scurtu**](https://t.me/san9scurtu) on Telegram.
+
+```bash
+Device and codename: 
+
+Device tree:
+
+Kernel source:
+
+Reason for prebuilt kernel (if exists):
+
+Selinux: Enforcing/permissive
+
+Safetynet status: Pass without Magisk/Pass with Magisk/Fails
+
+Sourceforge username:
+
+Telegram username:
+
+XDA Profile (if exists):
+```
+
+For an official status, your device should have proper commit messages, commit history and authorship. You must also maintain your own trees. Applications with trees with one "Streak-ify" commit which only contains rebranding will be rejected.
+
+After being accepted for official maintainership, check [**this document**](https://github.com/ProjectStreak/Streak_Documents/blob/eleven/Bringup.mkdn).

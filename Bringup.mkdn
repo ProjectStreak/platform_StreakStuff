@@ -1,0 +1,53 @@
+# Preparing ProjectStreak for your device
+
+You can always check out our [**device organization**](https://github.com/ProjectStreak-Devices) for reference.
+
+# General stuff
+
+ProjectStreak uses streak_device.mk.
+
+If your device supports cellular data, then set this in streak_device.mk:
+
+>>        # Inherit some common ProjectStreak stuff.
+>>        $(call inherit-product, vendor/streak/config/common_full_phone.mk)
+
+If it doesn't, then set this in streak_device.mk
+
+>>        # Inherit some common ProjectStreak stuff.   
+>>        $(call inherit-product, vendor/streak/config/common.mk)
+# FOD
+
+In order to enable the FOD HAL, you have to set this in overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Shows the required view for in-display fingerprint -->
+>>        <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+In order to enable Screen off FOD support, you have to set this in overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>        <!-- Whether device has screen off FOD support -->
+>>        <bool name="config_supportScreenOffFod">true</bool>
+
+# Burn-in protection
+
+If your device has an AMOLED screen, it is recommended to set this in overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>       <!-- If true, the display will be shifted around in ambient mode. -->
+>>       <bool name="config_enableBurnInProtection">true</bool>
+
+# Notch hiding
+
+If you have a device with a notch, set this in overlay/frameworks/base/core/res/res/values/config.xml:
+>>      <!-- Whether device has a physical display cutout -->
+>>      <bool name="config_physicalDisplayCutout">true</bool>
+
+# Official status
+
+To mark your build as official, set this in your streak_device.mk:
+
+>>        STREAK_BUILD_TYPE := OFFICIAL
+
+# Face Unlock
+
+Face Unlock support is only given for official builds. It is also enabled by default. In case your device doesn't support it, set this in your streak_device.mk:
+
+>>        TARGET_FACE_UNLOCK_SUPPORTED := false
