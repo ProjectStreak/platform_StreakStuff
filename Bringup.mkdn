@@ -16,6 +16,17 @@ If it doesn't, then set this in streak_device.mk:
 >>        # Inherit some common ProjectStreak stuff.   
 >>        $(call inherit-product, vendor/streak/config/common.mk)
 
+
+# GApps & Updatable APEX
+
+After lunching your build, you can do this to build GApps with the ROM:
+
+>>        export TARGET_BUILD_GAPPS=true
+
+If your device supports updatable APEX (i.e. Google Play system update), do this after lunching:
+
+>>        export TARGET_SUPPORTS_UPDATABLE_APEX=true
+
 # FOD
 
 In order to enable the FOD HAL, you have to set this in overlay/frameworks/base/core/res/res/values/config.xml:
@@ -23,7 +34,7 @@ In order to enable the FOD HAL, you have to set this in overlay/frameworks/base/
 >>        <!-- Shows the required view for in-display fingerprint -->
 >>        <bool name="config_supportsInDisplayFingerprint">true</bool>
 
-In order to enable Screen off FOD support, you have to set this in overlay/frameworks/base/core/res/res/values/config.xml:
+In order to enable Screen off FOD support, you have to set this in overlay/packages/apps/Settings/res/values/config.xml:
 
 >>        <!-- Whether device has screen off FOD support -->
 >>        <bool name="config_supportScreenOffFod">true</bool>
@@ -59,6 +70,9 @@ If your device supports either one of these charging standards, then you should 
 To mark your build as official, set this in your streak_device.mk:
 
 >>        STREAK_BUILD_TYPE := OFFICIAL
+
+You should also define the maintainer string in the "about phone" section of Settings.
+Do this according to [**this commit**](https://github.com/ProjectStreak-Devices/device_xiaomi_raphael/commit/39b13a9a385d142d2e4e36ffcdebbd7fce64d3a1).
 
 # Face Unlock
 
