@@ -1,0 +1,129 @@
+[center][IMG="streak"]https://github.com/ProjectStreak/platform_StreakStuff/blob/eleven/XDA/streak_xda.jpg?raw=true[/IMG]
+
+[CODE]
+[B]*** Disclaimer***[/B]
+* Your warranty is void. Or valid, probably?
+* I am not responsible for bricked devices, Shattered displays due to sheer awesomeness
+* of the ROM. A thermonuclear war or any fainting cause Raaj52 is probably way too handsome. 
+* YOU are choosing to make these modifications, and if 
+* you point your finger at me for messing up your device, We will LMAO at you.
+***/[/CODE][/CENTER]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Team Streak[/COLOR][/FONT][/SIZE][/B]
+[FONT="Verdana"][SIZE="2"][B]HSgod[/B] | Lead Developer
+[B]Raaj52[/B] | Lead Developer
+[B]San9scurtu[/B] | Project Contributor [/SIZE][/FONT]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Features[/COLOR][/FONT][/SIZE][/B]
+[HIDE][SIZE="2"][B][FONT="Verdana"][COLOR="DarkSlateGrey"]Theming[/COLOR][/FONT][/B][LIST]
+[*]6 System Fonts
+[*]5 Streak Themes colors
+[*]9 System Icon Shapes
+[*]8 Lockscreen Clock Styles
+[*]7 Streak Icon Packs
+[*]Grid
+[*]RGB Accent Picker[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]Statusbar[/COLOR][/FONT][/B][LIST]
+[*]Network traffic
+[*]Network autohide threshold
+[*]VoLTE icons
+[*]VoWiFi icon
+[*]VoWiFi icon instead of VoLTE icon
+[*]Statusbar battery indicator
+[*]QS Tile colors
+[*]Brightness slider options
+[*]Autobrightness icon[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]Buttons[/COLOR][/FONT][/B][LIST]
+[*]Playback control
+[*]Volume rocker wake
+[*]Volume steps
+[*]Hardware Keys[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]Gestures[/COLOR][/FONT][/B][LIST]
+[*]AOSP Gestures
+[*]Brightness control
+[*]Double Tap To Sleep Status Bar
+[*]Double Tap to Sleep Lockscreen
+[*]Three Finger Swipe To Screenshot[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]Lockscreen[/COLOR][/FONT][/B][LIST]
+[*]Fingerprint error vibration Toggle
+[*]Fingerprint recognizing animations
+[*]Transparent notifications
+[*]Wake up on charge
+[*]Lockscreen Charging Info
+[*]SmartSpace on lockscreen[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]PowerMenu[/COLOR][/FONT][/B][LIST]
+[*]Enable advanced restart
+[*]Hide power menu on lockscreen
+[*]Power Menu Items[/LIST]
+[B][FONT="Verdana"][COLOR="DarkSlateGrey"]Notifications[/COLOR][/FONT][/B][LIST]
+[*]Kill app button
+[*]Heads Up options
+[*]Center notification headers
+[*]Notification headers
+[*]In Call Vibration Options[/LIST]
+[/SIZE][/HIDE]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"] ROM DOWNLOAD [/COLOR][/FONT][/SIZE][/B]
+Download Official Build for raphael - [URL="https://sourceforge.net/projects/projectstreak/files/raphael"][B]Download[/B][/URL]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Our telegram channel[/COLOR][/FONT][/SIZE][/B]
+[SIZE="2"][FONT="Verdana"]Checkout our channel: [/SIZE][SIZE="2"][B][URL="https://t.me/ProjectStreakOfficial"]ProjectStreak[/URL][/B][/SIZE] [SIZE="2"]for more information and changes[/SIZE][/FONT]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Our telegram chat[/COLOR][/FONT][/SIZE][/B]
+[SIZE="2"][FONT="Verdana"]Checkout our chat: [/SIZE][SIZE="2"][B][URL="https://t.me/ProjectStreak"]ProjectStreak[/URL][/B][/SIZE] [SIZE="2"]for support devices.[/SIZE][/FONT]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Installation Instructions[/COLOR][/FONT][/SIZE][/B]
+[B][U][COLOR="DarkSlateGrey"]Pre-requisites[/COLOR][/U][/B]
+[LIST]
+[*]Always be safe, make a NAND backup
+[*]Be decrypted, else you need to format your data partition, (Internal Storage needs to be backed up if you are encrypted!!)
+[*]Latest Orange Fox/Oranagefox 10.0.6/SHRP/TWRP
+[/LIST]
+[B][U][COLOR="DarkSlateGrey"]Clean Flash Installation[/COLOR][/U][/B] 
+[LIST]
+[*]Wipe all except internal and OTG
+[*]Flash your latest MIUI vendor from [URL="https://xiaomifirmwareupdater.com/vendor/raphael"] Raphael Devices [/URL] or [URL="https://xiaomifirmwareupdater.com/vendor/raphaelin"] Indian Raphaelin Devices [/URL]
+[*]Flash ROM
+[*]Flash DFE/ DFE+Magisk combo file
+[*]Reboot to system
+[*]Be patient during the first boot
+[/LIST]
+[B][U][COLOR="DarkSlateGrey"]Learning[/COLOR][/U][/B]
+[LIST]
+[*]Feel free to ask in the support group or in this thread and we will reply as soon as we can so be patient.
+[*]Use #notes #guides #faq to learn
+[*]Type #groups to enjoy more.
+[*]Get all files via #files
+[/LIST]
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Bug Reporting[/COLOR][/FONT][/SIZE][/B]
+[SIZE="2"][FONT="Verdana"][LIST]
+[*]DO NOT Report bugs if you're running a custom kernel or you installed Xposed
+[*]Grab a logcat right after the problem has occurred. (Please include at least a few pages of the log, not just the last few lines, unless you know what you're doing.)
+[*]If it is a random reboot, grab dmesg . (Do not bother getting a logcat unless you can get it just before the reboot. A logcat after a reboot is useless)
+[*]If the problem disappears after running "setenforce 0" from a root shell, grab /data/misc/audit/audit.log
+[*]Remember to provide as much info as possible. The more info you provide, the more likely that the bug will be solved. Please also do not report known issues.
+[*]Current Bugs - Nothing at the moment. You tell us if encounter any issues through the bug report.
+[/LIST][/FONT][/SIZE]
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Credits[/COLOR][/FONT][/SIZE][/B]
+[FONT="Verdana"][SIZE="2"]
+[LIST]
+[*]LineageOS
+[*]Google for Android and AOSP
+[*]DerpFest
+[*]PixelDust
+[*]ABC ROM
+[*]PixelExperience
+[*]YAAP
+[*]ProtonAOSP
+[*]Evolution X
+[*]Project-Awaken
+[/LIST]
+The list is not complete here, we thank and give credit to all who contributed to our great community.
+Last but not the least, all our testers, who helped us to identify and solve many bugs as possible so that we can provide the best experience to you all [/SIZE][/FONT]
+
+[B][SIZE="3"][URL="https://www.paypal.me/HSgod02"][COLOR="SteelBlue"]Want to support us? Here you have a link to donation.[/COLOR][/URL][/SIZE][/B]
+
+[B][SIZE="4"][FONT="Century Gothic"][COLOR="SteelBlue"]Source Code[/COLOR][/FONT][/SIZE][/B]
+[B][SIZE="2"]Device Tree - [/SIZE][/B][URL="https://github.com/Raaj52/device_xiaomi_raphael"][SIZE="2"]https://github.com/Raaj52/device_xiaomi_raphael[/SIZE][/URL]
+[B][SIZE="2"]Device Vendor - [/SIZE][/B][URL="https://github.com/Raaj52/android_vendor_xiaomi"][SIZE="2"]https://github.com/Raaj52/android_vendor_xiaomi[/URL][/SIZE]
+[B][SIZE="2"]Kernel - [/SIZE][/B][SIZE="2"]Prebuilt from LOS[/SIZE]
