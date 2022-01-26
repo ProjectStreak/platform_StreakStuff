@@ -1,13 +1,13 @@
 # Official
 
->> This document highlights how you can get access to our official repos and maintain ProjectStreak officially for your device.
+This document highlights how you can get access to our official repos and maintain ProjectStreak officially for your device.
 
 ### So how do you do it?
 
-Follow this format and send a message with it to [**@san9scurtu**](https://t.me/san9scurtu) on Telegram.
+Follow this format and send a message with it to [**@ejbtrd**](https://t.me/ejbtrd) on Telegram.
 
-```bash
-Device and codename: 
+```
+Device and codename:
 
 Device tree:
 
@@ -28,4 +28,4 @@ XDA Profile (if exists):
 
 For an official status, your device should have proper commit messages, commit history and authorship. You must also maintain your own trees. Applications with trees with one "Streak-ify" commit which only contains rebranding will be rejected.
 
-After being accepted for official maintainership, check [**this document**](https://github.com/ProjectStreak/Streak_Documents/blob/eleven/Bringup.mkdn).
+After being accepted for official maintainership, check [**this document**](https://github.com/ProjectStreak/Streak_Documents/blob/twelve/Bringup.md).
