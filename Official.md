@@ -4,27 +4,7 @@ This document highlights how you can get access to our official repos and mainta
 
 ### So how do you do it?
 
-Follow this format and send a message with it to [**@ejbtrd**](https://t.me/ejbtrd) on Telegram.
-
-```
-Device and codename:
-
-Device tree:
-
-Kernel source:
-
-Reason for prebuilt kernel (if exists):
-
-Selinux: Enforcing/permissive
-
-Safetynet status: Pass without Magisk/Pass with Magisk/Fails
-
-Sourceforge username:
-
-Telegram username:
-
-XDA Profile (if exists):
-```
+Create an issue [here](https://github.com/ProjectStreak-Devices/official_devices/issues/new?template=form.md) - make sure to follow format.
 
 For an official status, your device should have proper commit messages, commit history and authorship. You must also maintain your own trees. Applications with trees with one "Streak-ify" commit which only contains rebranding will be rejected.
 
